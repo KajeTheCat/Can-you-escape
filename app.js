@@ -4,7 +4,7 @@ alert('Hello adventurer, Welcome to our escape rooms!');
 
 let answer = prompt('Which adventure would you prefer? Desert, Magic, or Wonderland?');
 
-let color = ''
+let color = '';
 
 if(answer.toLowerCase() === 'desert'){
     alert('Get ready to take on the Pharoh in our pyramid themed escape room!');
@@ -21,5 +21,5 @@ else if(answer.toLowerCase() === 'wonderland'){
 else{
     alert('Check out our fun and enjoyable adventures!');
     color = 'blue';
-}
+};
 
