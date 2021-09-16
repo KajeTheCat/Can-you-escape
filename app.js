@@ -33,7 +33,10 @@ function selectColor() {
 };
 
 function Rate(){
-    prompt('how many stars would you give us?');
-    for(stars = 0;  )
-    document.write('<img src= "https://www.seekpng.com/ima/u2q8a9w7o0t4t4y3/">')
+    let userResponse = parseInt(prompt('how many stars would you give us?'));
+    console.log(userResponse);
+    for(let i = 0;i < userResponse;i++){
+        console.log(i)
+        document.write('<img src="https://via.placeholder.com/150">');
+    }
 };
